@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Préstamo Express",
+        "monto": 10000,
+        "cuotas": 6
+    },
+    {
+        "nombre": "Préstamo Estándar",
+        "monto": 20000,
+        "cuotas": 12
+    },
+    {
+        "nombre": "Préstamo Premium",
+        "monto": 50000,
+        "cuotas": 24
+    },
+    {
+        "nombre": "Préstamo Mega",
+        "monto": 100000,
+        "cuotas": 36
+    }
+]

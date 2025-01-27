@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Préstamos</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body class="turn">
+    <main>
+    <div class="container">
+        
+            <div class="imagen-prestamos">
+                <img class="img-logo" src="/img/logo.png" alt="" width="" height="">
+                <h2>Formulario de Prestamos</h2>
+                <p class="subtitulo">Tu prestamo seguro y confiable</p>
+            </div>
+            <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Préstamos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <body class="turn">
+        <main>
+            <div class="container mt-5">
+                <h2 class="text-center">Simulador de Préstamos</h2>
+                <div id="predefinedLoans" class="mb-4">
+                    <!-- Aquí se generarán los botones -->
+                </div>
+                <form id="loanForm" class="needs-validation mt-4">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingrese su nombre y apellido" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Ingrese su correo electrónico" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="monto" class="form-label">¿Cuánto necesitas?</label>
+                        <input type="number" id="monto" name="monto" class="form-control" placeholder="Ej: 100000" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cuotas" class="form-label">¿En cuántas cuotas?</label>
+                        <input type="number" id="cuotas" name="cuotas" class="form-control" placeholder="Ej: 12" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Simular</button>
+                </form>
+    
+                <!-- Contenedor para la lista de resultados -->
+                <h3 class="mt-5">Solicitudes realizadas</h3>
+                <ul id="loanList" class="list-group"></ul>
+            </div>
+        </main>
+    
+      
+      <button type="submit" class="btn btn-primary">Simular</button>
+      
+    </form>
+     
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+    <footer>
+        <p class="rm-3">&copy;2024 - Desarrollo espacial </p>
+        <ul class="lista-enlínea"></ul>
+        <li class="lista-enlinea-item1"><a href="#">Privacy</a></li>
+        <li class="lista-enlinea-item2"><a href="#">Terms</a></li>
+        <li class="lista-enlinea-item3"><a href="#">Support</a></li>
+    </footer>
+    <script src="main.js"></script>
+    <script src="stop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
+
+
+<!-- </li>
+                    <div class="sod-md">
+                        <h4 class="datos-pm">Ingese los datos para el prestamo</h4>
+                        <form class="validacion" >
+                            <div class="eow-h-5">
+                                <label for="Nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control">
+                                <div class="respuesta-invalida">
+                                    Se requiere un nombre válido.
+                                </div>
+                            </div>
+                            <div class="call-m3">
+                                <label for="Apellido" class="form-label">Apellido</label>
+                                <input type="text" class="form-control">
+                                <div class="respuesta-invalida">
+                                    Se requiere un apellido válido.
+                                </div>
+                            </div>
+
+
+                            <div class="call-gm">
+                                <label for="Email" class="form-label">Email</label>
+                                <input type="text" class="form-control" id="email" placeholder="your@example.com">
+                                <div class="respuesta-invalida">
+                                    Ingrese una dirección de correo electrónico válida para actualizaciones de envío.
+                                </div>
+                            </div>
+                            <div class="call-pm">
+                                <label for="importe" class="form-label">¿Cuanto necesitas?</label>
+                                <input type="number" class="form-control" id="email" placeholder="your@example.com">
+                                <div class="respuesta-invalida">
+                                    Por favor, introduzca el importe.
+                                </div>
+
+                                <div class="call-9">
+                                    <label for="Honorarios" class="form-label">¿En cuantas cuotas?</label>
+                                    <input type="numero" class="form-control" id="Honorarios" placeholder="12" required>
+                                    <div class="respuesta-invalida">
+                                        Por favor, introduzca las tarifas.
+                                    </div>
+                                    <hr class="mi-6">
+
+                                    <input class="qw-400" id="simulate" type="submit" value="Simular">
+                        </form>
+                    </div>
+                    </li>
+                </div>
+            </div>
+    </div>
+    <div class="organizacion-listado">
+        <div class="cold">
+            <div class="row">
+                <h4 class="texto-primary">
+                    <span class="texto-primario">Tu prestamo</span>
+                </h4>
+                <ul class="grupo-lista">
+
+                </ul>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="texto-uu" id="Prestamo-simple"> Prestamo </h6>
+                        <small class="texto-monto">Monto del prestamo</small>
+                    </div>
+                    <span class="texto-pp" id="Monto-final">$0</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="cuotas" id="Cuotas-br">Cuotas</h6>
+                        <small class="cantidad-cuotas" id="Cuotas-final">Cantidad de cuotas </small>
+                    </div>
+                    <span class="texto-raso">0</span>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div class="texto-santo">
+                        <h6 class="intereses">Intereses</h6>
+                    </div>
+                    <span class="texto-santo" id="interes">$0</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total a devolver</span>
+                    <strong class="total-devol" id="Total-devolver">$0</strong>
+                </li>
+                   </div>
+    </main> -->
