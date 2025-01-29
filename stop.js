@@ -15,3 +15,20 @@ Array.from(forms).forEach(form => {
   }, false)
 });
   
+document.getElementById("simular").addEventListener("click", function () {
+  Swal.fire({
+    title: 'Simulando...',
+    text: 'Por favor, espera mientras se realiza la simulación.',
+    icon: 'info',
+    allowOutsideClick: false,
+    showConfirmButton: false,
+    timer: 2000 // Simula el proceso durante 2 segundos
+  }).then(() => {
+    Swal.fire({
+      title: '¡Completado!',
+      text: 'La simulación terminó con éxito.',
+      icon: 'success',
+      confirmButtonText: 'Cerrar'
+    });
+  });
+});
